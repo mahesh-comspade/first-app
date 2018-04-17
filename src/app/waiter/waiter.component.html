@@ -1,0 +1,24 @@
+<div>
+  <form #Waiters="ngForm" (ngSubmit)="add(Waiters.value); waiterName.value=''; resLocation.value=''; phnNo.value=''"
+  class="wtrs">
+    <input #waiterName type="text" placeholder="waiterName" class="form-control txt" name="waiterName" ngModel/>
+    <input #resLocation type="text" placeholder="resLocation" class="form-control txt" name="resLocation" ngModel/>
+    <input #phnNo type="text" placeholder="phnNo" class="form-control txt" name="phnNo" ngModel/>    
+    <button type="submit" class="btn button1">
+      add
+    </button>
+  </form>
+</div>
+
+
+<h4 class="lb">Waiter list</h4>
+<span [innerHTML]= status1></span>
+<ul class="waiters">
+  <li *ngFor="let record of records">
+    <a routerLink="detail/{{record.waiterName}}">
+      <strong>{{record.waiterName}}</strong> <span>{{record.resLocation}}</span>
+    </a>
+    <button class="delete" title="delete record" (click)="delete(record)">x</button>
+  </li>
+</ul>
+<router-outlet></router-outlet>

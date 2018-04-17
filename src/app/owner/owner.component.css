@@ -1,0 +1,14 @@
+.links{
+    color: black;
+}
+.links:hover{
+    color: orange;
+    background-color: black;
+}
+div{
+    margin: 10px 0px 0px 20px;
+}
+.place{
+    position: relative;
+    left: 50%;
+}

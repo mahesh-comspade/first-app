@@ -1,0 +1,19 @@
+.name{
+    color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+    /* position: relative;
+    left: 50%; */
+}
+.place{}
+.view{
+    margin: 10px 0px 5px 20px;
+}
+.btn{
+    margin: 5px 5px 10% 20px;
+    color: black;
+    background-color: orange;
+}
+.lb{
+    color: black;
+}

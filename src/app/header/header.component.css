@@ -2,18 +2,18 @@
     color: green;
 }
 .deli{
-   background-color: black;
-   color:orange;
+   background-color: green;
+   color:#FFF0F5;
    font-size: 300%;
    padding: 0;
 }
 .deli:hover{
-    color: black;
-    background-color: orange ;
+    color: green;
+    background-color: white;
 }
 .seli{
-    color: black;
-    background-color: orange;
+    color: white;
+    background-color:rgb(87, 63, 221);
     /* border-bottom-width: 10px; */
     /* font-size: 120%; */
     /* padding: 0; */
@@ -26,17 +26,4 @@
     position: relative;
     margin-left: 80%;
     background-color:rgb(88, 190, 88);
-}
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 200%;
-   background-color: orange;
-   color: black;
-   /* text-align: center; */
-}
-.icons{
-    margin: 10px 0px 10px 24%;
-    height: 5%;
 }

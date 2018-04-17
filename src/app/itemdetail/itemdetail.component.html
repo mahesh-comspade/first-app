@@ -1,0 +1,10 @@
+<div class="place">
+  <h4 class="name">{{ itemName | uppercase }} Details</h4>
+  <div class="container view">
+    <label class="lb">Price:
+      <input [(ngModel)]="updtPrice" placeholder="Udate Price"/>
+    </label>
+  </div>
+  <button (click)="goBack()" class="btn">go back</button>
+  <button (click)="save()" class="btn">save</button>
+</div>

@@ -1,0 +1,14 @@
+<div class="place">
+  <h4 class="name">{{ wtrName | uppercase }} Details</h4>
+  <div class="container view">
+    <label class="lb">Location:
+      <input [(ngModel)]="updtLoc" placeholder="Udate Location" />
+    </label>
+    <label class="lb">MobileNo:
+      <input [(ngModel)]="updtPhnNo" placeholder="Update MObileNo" />
+    </label>
+  </div>
+  <button (click)="goBack()" class="btn">go back</button>
+  <button (click)="save()" class="btn">save</button>
+</div>
+<router-outlet></router-outlet>
